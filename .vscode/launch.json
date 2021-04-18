@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "(gdb) Windows 上的 Bash 启动",
             "type": "cppdbg",
@@ -13,7 +14,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,
             "pipeTransport": {
                 "debuggerPath": "E:/cygwin/bin/gdb.exe",
                 "pipeProgram": "E:/cygwin/bin/bash.exe",
@@ -37,7 +38,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,
             "MIMode": "gdb",
             "miDebuggerPath": "E:\\cygwin\\bin\\gdb.exe",
             "setupCommands": [
