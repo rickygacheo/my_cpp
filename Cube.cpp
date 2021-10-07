@@ -12,4 +12,6 @@ void Cube::setEdge(int width, int height, int length) {
     this->length = length;
     this->height = height;
     this->width = width;
+    this->width = width;
+
 }
